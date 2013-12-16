@@ -29,6 +29,7 @@ a{
 .top-menu a {
     font-size:18px;
     background: rgba(0,0,0, 0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#7f000000', endColorstr='#7f000000'); /* IE */
     padding-top: 10px;
     padding-bottom: 10px;
     width: 250px;
@@ -42,18 +43,22 @@ a{
 
 .top-menu a:hover {
     background: rgba(127,127,127, 0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#7f7f7f7f', endColorstr='#7f7f7f7f'); /* IE */
 }
 
 .top-menu .active, .top-menu .active:hover {
     background: rgba(127,0,0, 0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#7fff0000', endColorstr='#7fff0000'); /* IE */
 }
 
 .main-contaner {
     background: rgba(0,0,0, 0.7);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#7f000000', endColorstr='#7f000000'); /* IE */
 }
 
 .clear {
     clear: both;
+    height: 0px;
 }
 
 .schedule {
