@@ -1,0 +1,111 @@
+body {
+    background: url("../img/back.jpg") no-repeat scroll 50% 0 #000000;
+    color: #FFFFFF;
+    font-family: 'PT Sans',Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    height: 100%;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+a{
+    color: #00a1e2;
+    outline: none;
+}
+
+.contaner {
+    margin: auto;
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+
+.top-menu {
+    margin-top: 310px;
+}
+
+.top-menu a {
+    font-size:18px;
+    background: rgba(0,0,0, 0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    text-align:center;
+    color:#ffffff;
+    text-decoration:none;
+    display: block;
+    float: left;
+
+}
+
+.top-menu a:hover {
+    background: rgba(127,127,127, 0.5);
+}
+
+.top-menu .active, .top-menu .active:hover {
+    background: rgba(127,0,0, 0.5);
+}
+
+.main-contaner {
+    background: rgba(0,0,0, 0.7);
+}
+
+.clear {
+    clear: both;
+}
+
+.schedule {
+
+    float: left;
+    width: 300px;
+    padding-top: 20px;
+}
+
+.film-detail {
+    padding-top: 20px;
+    float: left;
+    width: 700px;
+}
+
+.film-detail img {
+    border: 1px solid #FFFFFF;
+    float: left;
+    margin-right: 15px;
+}
+
+.film-decription {
+    float: left;
+    width: 500px;
+}
+
+.film-decription i{
+    display: block;
+    float: left;
+    min-width: 180px;
+}
+
+.film-decription span{
+    display: block;
+    float: left;
+    width: 300px;
+}
+
+.film-content {
+    margin-top: 20px;
+}
+
+.trailer {
+    margin-top: 20px;
+}
+
+.footer {
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+.footer div {
+    float: left;
+    width: 300px;
+}
