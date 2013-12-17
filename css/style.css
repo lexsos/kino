@@ -114,3 +114,123 @@ a{
     float: left;
     width: 300px;
 }
+
+.calendar .select a {
+    font-size:18px;
+    margin: 5px;
+    width: 27px;
+    padding-bottom: 2px;
+    text-align:center;
+    color:#A3A3A3;
+    text-decoration:none;
+    display: block;
+    float: left;
+    border: 1px solid #A3A3A3;
+    border-radius: 15px;
+}
+
+.calendar .select a:hover {
+
+    border: 1px solid #FFFFFF;
+    color:#FFFFFF;
+}
+
+.calendar .select span {
+    display: block;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 200px;
+    text-align:center;
+}
+
+.calendar .week {
+    margin-left: 15px;
+}
+
+.calendar .week span {
+
+    display: block;
+    float: left;
+    width: 35px;
+    text-align:center;
+}
+
+.calendar .days {
+    margin-left: 15px;
+    width: 250px;
+}
+
+.calendar .days a {
+
+    color: #FFFFFF;
+    text-decoration:none;
+    display: block;
+    float: left;
+    width: 33px;
+    text-align:center;
+    background: rgba(127,127,127, 0.5);
+    padding: 1px;
+
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#7f7f7f7f', endColorstr='#7f7f7f7f'); /* IE */
+}
+
+.calendar .days a:hover {
+    background: rgba(255,255,255, 0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#7fffffff', endColorstr='#7fffffff'); /* IE */
+}
+
+.calendar .days .pad {
+    width: 35px;
+    height: 1px;
+    float: left;
+}
+
+.calendar .days .active {
+    border: 1px solid #FFFFFF;
+    padding: 0px;
+}
+
+.films {
+    width: 270px;
+}
+
+.films .name {
+    color: #FF891E;
+    text-decoration:none;
+}
+
+.films .time {
+    padding: 0;
+    margin: 0;
+}
+
+.films .time li {
+
+    border-right: 1px solid #FFFFFF;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-right: 5px;
+}
+
+.films .time li:last-child {
+    border-right: none;
+}
+
+.films .film {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.films .film:hover {
+    background: rgba(255,255,255, 0.1);
+}
+
+.films .active, .films .active:hover {
+    background: rgba(255,255,255, 0.3);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4bffffff', endColorstr='#4bffffff'); /* IE */
+}
